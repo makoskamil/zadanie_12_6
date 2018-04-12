@@ -12,16 +12,14 @@
 <body>
     <main>
         <header>
-            <h1>Random quote machine</h1>
-            <h3>(Ajax z pomocą jQuery)</h3><br><br>
+            <h1>Country search engine</h1>
         </header>
-        <div class="box">
-            <h2 class="quote"></h2>
-            <h3 class="author"></h3>
-        </div>
-        <div>
-            <button class="trigger"> Random quote </button>
-            <a href="#" target="_blank" class="tweet"><i class="fa fa-lg fa-twitter"></i></a>
+        <button id="search">Search a country</button>
+        <input id="country-name" type="text" />
+        <h2>List of countries</h2>
+        <ul id="countries">
+            <li>No data</li>
+        </ul>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
